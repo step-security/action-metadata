@@ -5,7 +5,6 @@
 All repo and event metadata for use in Actions workflows
 
 [![license][license-img]][license-url]
-[![test][test-img]][test-url]
 [![semantic][semantic-img]][semantic-url]
 
 ## Why
@@ -69,7 +68,7 @@ This action will output the following properties:
 | `repository_ssh_url`                        | <git@github.com>:step-security/action-metadata.git           |
 | `repository_clone_url`                      | <https://github.com/step-security/action-metadata.git>       |
 | `repository_svn_url`                        | <https://github.com/step-security/action-metadata>           |
-| `repository_homepage`                       | <https://ahmadnassri.com/projects/>                        |
+| `repository_homepage`                       |                                                            |
 | `repository_size`                           | 24                                                         |
 | `repository_stargazers_count`               | 1                                                          |
 | `repository_watchers_count`                 | 1                                                          |
@@ -101,14 +100,14 @@ This action will output the following properties:
 | `license_name`                              | MIT License                                                |
 | `license_spdx_id`                           | MIT                                                        |
 | `owner_id`                                  | 183195                                                     |
-| `owner_login`                               | ahmadnassri                                                |
+| `owner_login`                               | step-security                                              |
 | `owner_avatar_url`                          | <https://avatars.githubusercontent.com/u/183195?v=4>       |
-| `owner_html_url`                            | <https://github.com/ahmadnassri>                           |
+| `owner_html_url`                            | <https://github.com/step-security>                         |
 | `owner_type`                                | User                                                       |
 | `template_repository_id`                    | 342988151                                                  |
 | `template_repository_name`                  | template-action-composite                                  |
-| `template_repository_full_name`             | ahmadnassri/template-action-composite                      |
-| `template_repository_html_url`              | <https://github.com/ahmadnassri/template-action-composite> |
+| `template_repository_full_name`             |                                                            |
+| `template_repository_html_url`              |                                                            |
 
 <!-- markdownlint-restore -->
 
@@ -120,9 +119,6 @@ This action will output the following properties:
 
 [release-url]: https://github.com/step-security/action-metadata/releases
 [release-img]: https://badgen.net/github/release/step-security/action-metadata
-
-[test-url]: https://github.com/step-security/action-metadata/actions?query=workflow%3Apush
-[test-img]: https://github.com/step-security/action-metadata/workflows/push/badge.svg
 
 [semantic-url]: https://github.com/step-security/action-metadata/actions?query=workflow%3Arelease
 [semantic-img]: https://badgen.net/badge/📦/semantically%20released/blue
