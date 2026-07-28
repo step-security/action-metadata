@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
 
       - id: metadata
-        uses: ahmadnassri/action-metadata@v2
+        uses: step-security/action-metadata@v2
 
       # simple usage example
       - run: |
@@ -45,18 +45,18 @@ This action will output the following properties:
 | `repository_json`                           | { ... } **full** JSON object of the current repository   |
 | `repository_id`                             | 368563995                                                |
 | `repository_name`                           | action-metadata                                          |
-| `repository_full_name`                      | ahmadnassri/action-metadata                              |
+| `repository_full_name`                      | step-security/action-metadata                              |
 | `repository_private`                        | false                                                    |
-| `repository_html_url`                       | https://github.com/ahmadnassri/action-metadata           |
+| `repository_html_url`                       | https://github.com/step-security/action-metadata           |
 | `repository_description`                    | get all the repository metadata for use in Actions       |
 | `repository_fork`                           | false                                                    |
 | `repository_created_at`                     | 2021-05-18T14:38:41Z                                     |
 | `repository_updated_at`                     | 2021-11-13T06:48:56Z                                     |
 | `repository_pushed_at`                      | 2022-08-03T14:36:17Z                                     |
-| `repository_git_url`                        | git://github.com/ahmadnassri/action-metadata.git         |
-| `repository_ssh_url`                        | git@github.com:ahmadnassri/action-metadata.git           |
-| `repository_clone_url`                      | https://github.com/ahmadnassri/action-metadata.git       |
-| `repository_svn_url`                        | https://github.com/ahmadnassri/action-metadata           |
+| `repository_git_url`                        | git://github.com/step-security/action-metadata.git         |
+| `repository_ssh_url`                        | git@github.com:step-security/action-metadata.git           |
+| `repository_clone_url`                      | https://github.com/step-security/action-metadata.git       |
+| `repository_svn_url`                        | https://github.com/step-security/action-metadata           |
 | `repository_homepage`                       | https://ahmadnassri.com/projects/                        |
 | `repository_size`                           | 24                                                       |
 | `repository_stargazers_count`               | 1                                                        |

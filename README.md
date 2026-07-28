@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
 
       - id: metadata
         uses: step-security/action-metadata@v2
@@ -115,9 +115,6 @@ This action will output the following properties:
   [context]: https://docs.github.com/en/actions/reference/context-and-expression-syntax-for-github-actions
 
 ----
-> Author: [Ahmad Nassri](https://www.ahmadnassri.com/) &bull;
-> Twitter: [@AhmadNassri](https://twitter.com/AhmadNassri)
-
 [license-url]: LICENSE
 [license-img]: https://badgen.net/github/license/step-security/action-metadata
 
