@@ -86,7 +86,7 @@ This action will output the following properties:
 | `repository_is_template`                    | false                                                      |
 | `repository_web_commit_signoff_required`    | false                                                      |
 | `repository_visibility`                     | public                                                     |
-| `repository_default_branch`                 | master                                                     |
+| `repository_default_branch`                 | main                                                       |
 | `repository_allow_squash_merge`             | true                                                       |
 | `repository_allow_merge_commit`             | false                                                      |
 | `repository_allow_rebase_merge`             | true                                                       |
